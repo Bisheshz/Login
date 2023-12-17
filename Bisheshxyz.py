@@ -23,7 +23,7 @@ O = '\x1b[38;5;51m'  # Biru Muda
 P = '\x1b[38;5;231m' # Putih
 J = '\x1b[38;5;208m' # Jingga
 A = '\x1b[38;5;248m' # Abu-Abu
-logo = '''' hiiiii ''''
+logo = ' hiiiii '
 #--> Clear Terminal
 def clear():
     if "linux" in sys.platform.lower():os.system("clear")
